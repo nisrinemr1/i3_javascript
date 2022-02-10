@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Exo 6.1 - Tableau</h1>
+    <h3>Les valeurs du tableau</h3>
+    <table>
+        <tbody>
+            <tr id="displayTab"></tr>
+        </tbody>
+    </table>
+
+    <h3>Manipulation sur le tableau</h3>
+    <form name="encoder">
+        <div>
+            <label for="inputNumber">Nouvelle valeur : </label>
+            <input type="number" name="inputNumber" id="inputNumber">
+        </div>
+        <div>
+            <button type="submit" id="btnSubmit">Ajouter</button>
+            <button type="button" id="btnClearTab">Effacer le contenu</button>
+        </div>
+    </form>
+
+    <h3>Les interactions (À vous de les faire ☺ )</h3>
+    <button id="btnSomme">Somme</button>
+    <button id="btnMoy">Moyenne</button>
+    <button id="btnMin">Minimum</button>
+    <button id="btnMax">Maximum</button>
+    <button id="btnTrie1">Tableau trié 1 (Bulle)</button>
+    <button id="btnTrie2">Tableau trié 2 (Insert)</button>
+    <button id="btnTrie3">Tableau trié 3 (Méthode Array.sort)</button>
+    <button id="btnDoublon">Tableau sans doublon</button>
+    <button id="btnLong">Nombre d'élément</button>
+    <button id="btnLongDoublon">Nombre d'élément sans doublons</button>
+    <p id="displayResult">...</p>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

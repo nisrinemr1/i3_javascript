@@ -1,0 +1,23 @@
+Syntaxe du JSON: (pas besoin de virgule de fin en json!)
+
+    -Clef valeur: (-> la clef est toujours en double quote! "")
+    *************
+        "clef1": <valeur> ("Toto" || 42)
+    
+
+    -Création d'objet:(avec des accolades et la virgule à la fin!)
+    ******************
+    {
+        "firstname" : "Zaza",
+        "lastname" : "Vanderquack",
+        "age" : 16,
+        "demo" : true 
+    }
+
+    Création d'une collection: (avec des crochet [])
+    **************************
+    [
+        4,
+        23,
+        88
+    ]

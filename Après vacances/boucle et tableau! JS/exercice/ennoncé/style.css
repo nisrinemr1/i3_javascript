@@ -1,0 +1,10 @@
+body{
+    box-sizing: border-box;
+    background-image: url("./img/digital-art-pixel-art-pixels-building-pixelated-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    color: floralwhite;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+

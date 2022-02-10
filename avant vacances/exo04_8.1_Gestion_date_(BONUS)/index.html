@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>8) Réaliser un programme de gestion de date</h1>
+
+    <h3>a) L'utilisateur encode une date via 3 input. ;)</h3>
+    <p>Une fois la date encodée, l'algorithme vérrifie si la date est valide.</p>
+
+    <h3>b) Si la date est valide, indiquer à l'utilisateur la date du lendemain.</h3>
+    <p>Exemple:
+    <ul>
+        <li>Date valide :</li>
+        <ul>
+            <li>Jour : 12</li>
+            <li>Mois : 11</li>
+            <li>Année : 2020</li>
+        </ul>
+        <li>(Lendemain → 13/11/2020)</li>
+    </ul>
+    <ul>
+        <li>Date invalide</li>
+        <ul>
+            <li>Jour : 30</li>
+            <li>Mois : 2</li>
+            <li>Année : 1999</li>
+        </ul>
+    </ul>
+    <ul>
+        <li>Date valide</li>
+        <ul>
+            <li>Jour : 31 </li>
+            <li>Mois : 10 </li>
+            <li>Année : 2016</li>
+        </ul>
+        <li>(Lendemain → 1/11/2016)</li>
+    </ul>
+    </p>
+
+    <p>
+        PS : Ne pas utiliser l'objet "Date" ;)
+        <br>
+        Le but est de réaliser vous même la logique
+    </p>
+
+    <h2>Résolution de l'exercice</h2>
+    <div>
+        <label>Veuillez encoder une date</label>
+        <input type="text" id="inputJour" placeholder="Jour">
+        <input type="text" id="inputMois" placeholder="Mois">
+        <input type="text" id="inputAnnee" placeholder="Annee">
+        <button id="btnVerif">Verifier</button>
+    </div>
+    <div>
+        <p id="reponseMsg"></p>
+        <p id="reponseLendemain"></p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

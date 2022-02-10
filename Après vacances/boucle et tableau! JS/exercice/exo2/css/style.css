@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Nintendo";
+    src: url("../font/NineteenNinetyThree-L1Ay.ttf");
+}
+
+
+body {
+    background-color: rgb(87, 42, 81);
+    color: rgb(217, 180, 241);
+    margin: auto;
+    font-family: "Nintendo";
+}
+
+table,td {
+    border: 2px solid rgb(228, 248, 252);
+    border-collapse: collapse;
+}
+ 
+td {
+    height:50px;
+    width:50px;
+    text-align: center;
+}
+
+.not-visible{
+    display:none;
+}
+
+label{
+    width: 200px;
+}
+
+label::after{
+    content: " : ";
+}
+
+table, table td, table th{
+    border :rgb(217, 180, 241) 1px solid;
+    border-collapse: collapse;
+}
+.nom-joueur{
+    color:powderblue;
+}
+
+.score-joueur{
+    color: rgb(137, 220, 255);
+}
+
+
+#zoneNom , #zoneEncodage, #zoneScore{
+    transition: ease-in-out 1s all;
+}
+/* button:disabled{
+    background-color: rgb(201, 232, 237);
+    color: rgb(46, 46, 46);
+
+    pas la peine étant donné que bootstrap le disable directement 
+} */

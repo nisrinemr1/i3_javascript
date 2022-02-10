@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Nintendo";
+    src: url("../font/NineteenNinetyThree-L1Ay.ttf");
+}
+
+
+body {
+    background-color: rgb(46, 46, 46);
+    color: rgb(201, 232, 237);
+    margin: auto;
+    font-family: "Nintendo";
+}
+
+table,td {
+    border: 2px solid rgb(228, 248, 252);
+    border-collapse: collapse;
+}
+ 
+td {
+    height:30px;
+    width:30px;
+    text-align: center;
+}
+
+/* button:disabled{
+    background-color: rgb(201, 232, 237);
+    color: rgb(46, 46, 46);
+
+    pas la peine étant donné que bootstrap le disable directement 
+} */

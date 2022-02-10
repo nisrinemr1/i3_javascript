@@ -1,0 +1,108 @@
+################################################
+# Exercices sur les sturcutres conditionnelles #
+################################################
+
+
+1) Simulation de message d'alerte d'une cuve
+********************************************
+
+En utilisant uniquement la structure 'if' réaliser : 
+L'utilisateur va encoder le niveau de la cuve (0-50).
+Suite à la donnée encodée, le programme renvoie :
+ - 50  => Cuve pleine
+ - 0   => Cuve vide
+ - <10 => Cuve presque vide
+
+
+
+2) Réaliser un programme de cotation d'un eleve
+***********************************************
+
+L'utilisateur encode une cotation de 0 jusqu'à 20.
+Le programme lui indique le grade correspondant : 
+   • 20    : Excellent
+   • 17-19 : Très bien
+   • 13-16 : Bien
+   • 10-12 : Suffisant
+   • 8-9   : Insuffisant
+   • 0-7   : Echec
+
+
+
+3) Réaliser un programme qui indique l'etat (solide/liquide/gaz) de l'eau
+*************************************************************************
+
+L'utilisateur encode une température.
+Le programme indique l'etat dans leque l'eau est pour la température.
+
+
+
+4) Détection d'une année bissextile
+***********************************
+
+Réaliser un algorithme qui permet de définir si une année donnée (via prompt) 
+par l'utilisateur est bissextile ou non.
+
+ Règle  : Une année est bissextile si elle est divisible par 4, mais elle n'est pas
+         divisible par 100. A l'exception des années qui sont divisibles par 400.
+
+ Exemple : Non bissextile : 1999, 2003, 2100
+           Bissextile: 2004, 2080, 2000
+
+
+
+5) Simulation d'un programme qui répond a l'utilisateur
+*******************************************************
+
+Le programme se lance en demandant un message l'utilisateur.
+
+ • Si l'utilisateur envoie un message qui contient « Bonjour »,
+   le programme salut l'utilisateur à son tour.
+
+ • Si l'utilisateur n'a pas salué le programme, celui-ci indique qu'il faut dire bonjour :) 
+
+
+
+6) Affichage des jours de la semaine
+************************************
+
+L'utilisateur entre un nombre de 1 à 7.
+Le programme indique le jour de la semaine corresponte
+ Exemple : 3 → Mercredi
+
+
+
+7) Réaliser une calculatrice simple
+***********************************
+
+Créer un programme qui demande a l'utilisateur : 
+  - un premier nombre
+  - l'operation (+ - x /)
+  - un deuxieme nombre
+Afficher le resultat du calcule.
+
+ Attention : Gérer la division par zero.
+
+
+
+8) Réaliser un programme de gestion de date
+*******************************************
+
+ a) L'utilisateur encode une date via 3 prompt.
+    Une fois la date encodée, l'algorithme vérrifie
+    si la date est valide.
+
+ b) Si la date est valide, indiquer à l'utilisateur
+    la date du lendemain.
+    Exemple: Jour  : 12         Date valide
+          Mois  : 11         Lendemain > 12/11/2020
+          Année : 2020
+          Jour  : 30         Date invalide
+          Mois  : 2         
+          Année : 1999
+          Jour  : 31         Date valide
+          Mois  : 10         Lendemain > 1/11/2020
+          Année : 2016
+
+ PS : Ne pas utiliser l'objet "Date" ;)
+      Le but est de réaliser vous même la logique

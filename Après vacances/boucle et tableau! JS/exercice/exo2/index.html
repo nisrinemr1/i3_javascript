@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="mt-5">
+            <h1>Coucou 🙂</h1>
+            <p>2. Réaliser un site web qui permet d'encoder les scores de 4 joueurs <br><br>
+
+                Sénario : <br>
+            <ul>
+                <li>Les joueurs sont anonymes</li>
+                <li>Les scores sont encodés à l'aide de 4 inputs</li>
+                <li>Les scores totaux des joueurs s'actualise après l'encodage.</li>
+            </ul>
+            <br>
+            Bonus:
+            <ul>
+                <li>Permet d'encoder le nom des joueurs</li>
+                <li>Permet d'avoir un nombre de joueurs variables (minimum 2)</li>
+        </div>
+        <br><br>
+
+        <div id="zoneNom">
+            <h2>Exercice des scores</h2>
+            <form name="formJoueur">
+                <div>
+                    <label for="nomJoueur1">Joueur 1</label>
+                    <input id="nomJoueur1" type="text" name="nomJoueur1">
+                </div>
+                <div>
+                    <label for="nomJoueur2">Joueur 2</label>
+                    <input id="nomJoueur2" type="text" name="nomJoueur2">
+                </div>
+                <div>
+                    <label for="nomJoueur3">Joueur 3</label>
+                    <input id="nomJoueur3" type="text" name="nomJoueur3">
+                </div>
+                <div>
+                    <label for="nomJoueur4">Joueur 4</label>
+                    <input id="nomJoueur4" type="text" name="nomJoueur4">
+                </div>
+                <button type="submit" class="btn btn-outline-info">Valider!</button>
+            </form>
+        </div>
+        <br><br>
+        <!-- on va utiliser la map https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Map -->
+
+        <div id="zoneEncodage" class="not-visible">
+            <h2>Encodage des scores</h2>
+            <form name="formScore">
+                <div>
+                    <label for="scoreJoueur1" id="labelJoueur1">NOM JOUEUR</label>
+                    <input id="scoreJoueur1" type="text" name="scoreJoueur1">
+                </div>
+                <div>
+                    <label for="scoreJoueur2" id="labelJoueur2">NOM JOUEUR</label>
+                    <input id="scoreJoueur2" type="text" name="scoreJoueur2">
+                </div>
+                <div>
+                    <label for="scoreJoueur3" id="labelJoueur3">NOM JOUEUR</label>
+                    <input id="scoreJoueur3" type="text" name="scoreJoueur3">
+                </div>
+                <div>
+                    <label for="scoreJoueur4" id="labelJoueur4">NOM JOUEUR</label>
+                    <input id="scoreJoueur4" type="text" name="scoreJoueur4">
+                </div>
+                <button type="submit" class="btn btn-outline-info">Ajouter les scores!</button>
+                <button type="button" id="btnCalcul" class="btn btn-outline-info">Feuille des scores</button>
+            </form>
+        </div>
+        <div id="zoneScore" class="not-visible">
+            <h2>Feuille des scores:</h2>
+            <table>
+                <tbody id="displayScore"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

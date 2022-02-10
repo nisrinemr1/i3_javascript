@@ -1,0 +1,10 @@
+
+UI => L'interface utilisateur
+  - Button
+  - Couleur
+  - ...
+
+UX => L'experience utilisateur
+  - Interaction
+  - Navigation
+  - Mise en avant

@@ -1,0 +1,21 @@
+{
+    "theme" : "Langage de programmation",
+    "formatio" : "Web 10 - Interface 3",
+    "data" : [ //un tableau d'objet
+        {
+            "name": "Javascript",
+            "releaseData" : 1996,
+            "paradigme" : "Orienté Prototype"
+        },
+        {
+            "name": "PHP",
+            "releaseData": 1995,
+            "paradigme": "Orienté Objet"
+        }
+    ]
+}
+//structuration de donné ! 
+
+//json.data[0].name //recupere le premier objet ({})(donc récup Javascript)
+
+https://www.json.org/json-en.html

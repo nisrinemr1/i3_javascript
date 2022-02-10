@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../exo1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../exo1/css/style.css">
+    <title>Document</title>
+</head>
+<!-- ______________________________________________________________________________________________________________________________________ -->
+
+<body>
+    <div class="container">
+        <div class="mt-5">
+            <h3>1. Réaliser une page web qui permet à l'utilisateur d'encoder des valeurs entiere (avec validation
+                simpl).</h3>
+                <br>
+                <h4>Les valeurs du tableau</h4><br>
+                <table>
+                    <tbody>
+                        <tr id="displayTab">
+                        </tr>
+                    </tbody>
+                </table><br>
+
+            <h5>Manipulation sur le tableau</h5>
+            <ul>
+                <li>Afficher les valeurs encodées (Non trier),</li>
+                <li>Afficher la somme des valeurs,</li>
+                <li>Afficher les valerus (min/max),</li>
+                <li>Afficher les valerus trier.</li>
+            </ul><br>
+            Note: L'utilisateur de la fonction de "sort" n'est pas autorisé. :)</p>
+
+            <form name="encoder" action="#">
+                <label for="add">Ajouter des valeurs dans le tableau:</label>
+
+                <input type="number" id="inputNumber">
+                <button id="btnSubmit" class="btn btn-outline-success" type="submit">Ajouter</button>
+                <input type="button" class="btn btn-outline-danger" id="btnClearTab" value ="Supprimer">
+                <p id="textAjout"></p>
+
+                <br>
+                <label for="interaction">Interaction:</label><br><br>
+                <input type="button" class="btn btn-outline-info" value="Somme" id="btnSomme">
+                <input type="button" class="btn btn-outline-info" value="Moyenne" id="btnMoyenne">
+                <input type="button" class="btn btn-outline-info" value="Minimum" id="btnMin">
+                <input type="button" class="btn btn-outline-info" value="Maximum" id="btnMax">
+                <input type="button" class="btn btn-outline-info" value="Tableau Trier a bulle" id="btnTrier">
+                <input type="button" class="btn btn-outline-info" value="Tableau Trier 2 (Insert)" id="btnTrier2">
+                <input type="button" class="btn btn-outline-info" value="Tableau Trier (Méthode Array.sort)" id="btnTrier3">
+                <input type="button" class="btn btn-outline-info" value="Doublon" id="btnDoublon">
+                <input type="button" class="btn btn-outline-info" value="Longueur" id="btnLong">
+                <input type="button" class="btn btn-outline-info" value="Longueur Doublon" id="btnLongDoublon">
+
+                <p id="message1"></p>
+                <p id="message2"></p>
+                <p id="message3"></p>
+                <p id="message4"></p>
+                <p id="message5"></p>
+                <p id="message6"></p>
+                <p id="message7"></p>
+                <p id="message8"></p>
+                <p id="message9"></p>
+                <p id="message10"></p>
+                
+            </form>
+        </div>
+    </div>
+    <script src="../exo1/js/script.js"></script>
+    <script src="../exo1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

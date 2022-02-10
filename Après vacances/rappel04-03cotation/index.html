@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Réaliser un programme de cotation d'un élève</h2>
+    <p>L'utilisateur encode une cotation de 0 à 20. Le programe lui indique le grade correspondant:</p>
+    <ul>
+        <li>20: Excellent</li>
+        <li>17-19: Très bien </li>
+        <li>13-16:Bien</li>
+        <li>10-12: suffisant </li>
+        <li>8-9: Insuffisant</li>
+        <li>0-7: Echec</li>
+    </ul>
+
+    <h3>Solution</h3>
+    <div>
+        <label for="elevePrenom">Prenom : </label>
+        <input type="text" id="elevePrenom">
+        <label for="eleveNom">Nom : </label>
+        <input type="text" id="eleveNom">
+        <label for="eleveResultat">Resultat : </label>
+        <input type="text" id="eleveResultat">
+    </div>
+    <button id="btnResult">Obtenir le grade</button>
+    <p id="msgResult">...</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
