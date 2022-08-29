@@ -123,4 +123,4 @@ const 14= (valeur4 === 13) || (valeur4 > 42);
 // exemple : encoder une valeur qui est soit multiple de 2 ou de 3
 const valeur5= 42;
 
-const = (valeur5 %2 === 0) || (valeur4 %3===0); //true car 42 multiple de 2 mais pas de 3 ! ps: reflechis un peu plus !! 
+const 15 = (valeur5 %2 === 0) || (valeur4 %3===0); //true car 42 multiple de 2 mais pas de 3 ! ps: reflechis un peu plus !! 

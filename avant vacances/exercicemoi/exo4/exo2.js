@@ -11,7 +11,7 @@ const resultat = document.getElementById('resultat');
 point.innerHTML = encode;
 /* switch (encode) {
     case 20 :
-        resultat.innerHTML=('Excellent');
+        resultat.innerHTML='Excellent';
         break;
     case 19 :
     case 18 :
